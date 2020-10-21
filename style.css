@@ -1,0 +1,109 @@
+body {
+    background: rgba(1, 1, 59, 1);
+    background: -moz-linear-gradient(left, rgba(1, 1, 59, 1) 0%, rgba(135, 0, 184, 1) 0%, rgba(75, 0, 107, 1) 0%, rgba(96, 37, 173, 1) 0%, rgba(123, 34, 148, 1) 65%, rgba(148, 11, 186, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(1, 1, 59, 1)), color-stop(0%, rgba(135, 0, 184, 1)), color-stop(0%, rgba(75, 0, 107, 1)), color-stop(0%, rgba(96, 37, 173, 1)), color-stop(65%, rgba(123, 34, 148, 1)), color-stop(100%, rgba(148, 11, 186, 1)));
+    background: -webkit-linear-gradient(left, rgba(1, 1, 59, 1) 0%, rgba(135, 0, 184, 1) 0%, rgba(75, 0, 107, 1) 0%, rgba(96, 37, 173, 1) 0%, rgba(123, 34, 148, 1) 65%, rgba(148, 11, 186, 1) 100%);
+    background: -o-linear-gradient(left, rgba(1, 1, 59, 1) 0%, rgba(135, 0, 184, 1) 0%, rgba(75, 0, 107, 1) 0%, rgba(96, 37, 173, 1) 0%, rgba(123, 34, 148, 1) 65%, rgba(148, 11, 186, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(1, 1, 59, 1) 0%, rgba(135, 0, 184, 1) 0%, rgba(75, 0, 107, 1) 0%, rgba(96, 37, 173, 1) 0%, rgba(123, 34, 148, 1) 65%, rgba(148, 11, 186, 1) 100%);
+    background: linear-gradient(to right, rgba(1, 1, 59, 1) 0%, rgba(135, 0, 184, 1) 0%, rgba(75, 0, 107, 1) 0%, rgba(96, 37, 173, 1) 0%, rgba(123, 34, 148, 1) 65%, rgba(148, 11, 186, 1) 100%);
+    margin: 0;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#01013b', endColorstr='#940bba', GradientType=1);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: #581081;
+    height: 90vh;
+    width: 91%;
+}
+
+.font {
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconfacebook {
+    border: 1px solid #bd2e4d;
+    border-radius: 50%;
+    padding: 54px;
+    background: url("facebook.svg") no-repeat;
+    background-size: 29px;
+    background-position: center;
+    border-right: none;
+    position: relative;
+    z-index: 2;
+    left: 15px;
+}
+
+.icontwitter {
+    border: 1px solid #bd2e4d;
+    border-radius: 50%;
+    padding: 54px;
+    background: url('twitter.svg') no-repeat #581081;
+    background-size: 29px;
+    background-position: center;
+    z-index: 3;
+    position: relative;
+}
+
+p {
+    color: #bd2e4d;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+input[type=email],
+input[type=password] {
+    background-color: #581081;
+    border: 1px solid #bd2e4d;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 41%;
+}
+
+.btn {
+    padding: 11px;
+    font-size: 25px;
+    border-radius: 4px;
+    border: none;
+    margin: 15px;
+    width: 43%;
+}
+
+.button1 {
+    background-color: #11ee11;
+    color: #fff;
+}
+
+.button2 {
+    background-color: #fcd602;
+}
+
+hr {
+    border: 1px solid #bd2e4d;
+}
